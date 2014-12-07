@@ -78,6 +78,6 @@ Rails.application.configure do
 
   # Note: Set this to actual host name
 
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { host: => 'https://niklas-pinteresting.herokuapp.com/' }
 
 end
