@@ -29,6 +29,7 @@ gem 'autoprefixer-rails'
 
 gem 'devise', '~> 3.4.1'
 
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
 	gem 'sqlite3'
